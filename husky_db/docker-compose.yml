@@ -1,0 +1,25 @@
+version: '3.1'
+
+services:
+
+  husky_db:
+    image: mysql:latest
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: Hu!sky_2024
+      MYSQL_DATABASE: husky
+      MYSQL_USER: pere_d_husky
+      MYSQL_PASSWORD: Hu!sky_666
+    ports:
+      - 3306:3306
+    volumes:
+      - husky_db:/var/lib/mysql
+
+  adminer:
+    image: adminer
+    restart: always
+    ports:
+      - 8080:8080
+
+volumes:
+  husky_db:
