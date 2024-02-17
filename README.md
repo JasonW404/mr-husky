@@ -30,7 +30,4 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 # License
 
-MIT
-```
-The MIT License is a permissive free software license. It allows users to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the software, under the condition that the license and copyright notice is included in all copies or substantial portions of the software. 
-```
+[GPL-3.0-or-later](./LICENSE)
